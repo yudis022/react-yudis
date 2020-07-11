@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.gambar {
+  color: #fff;
+  background: url('telor.jpg');
+  background-size: cover;
+  background-attachment: fixed;     /* Tambahkan baris berikut */
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.header {
+  background-color: #f1f1f1;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+  background: url('telur.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.columns {
+  float: left;
+  width: 99.00%;
+  padding: 15px;
+}
+
+.column {
+  float: left;
+  width: 30.00%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+#container{
+  position: relative;
+}
+
+.content{
+  padding: 10px;
+}
+
+.footer {
+  background-color:black;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+    padding-left: 10px;
+    line-height: 50px;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+}
+
+.footers {
+  background-color: #333;
+  text-align: center;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+.App-header {
+  background-color: greenyellow;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
